@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="22px" viewBox="0 0 52 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.4">
+        <g id="Desktop" transform="translate(-1174.000000, -1325.000000)" fill="#FFFFFF">
+            <g id="Main" transform="translate(0.000000, 980.000000)">
+                <g id="Works" transform="translate(0.000000, 86.000000)">
+                    <g id="Image" transform="translate(960.000000, 0.000000)">
+                        <g id="arrow" transform="translate(214.000000, 259.000000)">
+                            <path d="M41.712,0.2955 C41.318,-0.0985 40.678,-0.0985 40.283,0.2955 C39.888,0.6905 39.888,1.3295 40.283,1.7245 L48.587,10.0245 L1,10.0245 C0.448,10.0245 0,10.4725 0,11.0245 C0,11.5765 0.448,12.0245 1,12.0245 L48.556,12.0245 L40.283,20.2935 C39.888,20.6885 39.888,21.3275 40.283,21.7225 C40.678,22.1165 41.318,22.1165 41.712,21.7225 L51.716,11.7225 C52.111,11.3285 52.111,10.6895 51.716,10.2945 L41.712,0.2955 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
