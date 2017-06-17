@@ -58,7 +58,7 @@
 
 <script>
 (function(global) {
-
+	'use strict';
   var playSound = function(e) {
     var audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
     var key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
