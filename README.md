@@ -24,3 +24,6 @@
 
 * ### [day-2](day-2/day-2.md)
 
+* ### [day-3](day-3/day-3.md)
+
+
