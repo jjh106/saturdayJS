@@ -2,8 +2,8 @@
 
 - JavaScript30
   - 결과물 : [01.Drum Kit](https://jjh106.github.io/saturdayJS/day-1/01-JavaScriptDrumKit/index.html)
-    - <kbd> : 유저의 키보드 입력을 지정하는 태그.
-    - data-key는 키코드에 해당하는 키를 눌러 실행 시키는지 설정하는 것으로 <div>와 <aduio>를 연결해준다.
+    - kbd요소 : 유저의 키보드 입력을 지정하는 태그.
+    - data-key는 키코드에 해당하는 키를 눌러 실행 시키는지 설정하는 것으로 div요소와 aduio요소를 연결해준다.
     - audio.currentTime = 0으로 설정한 것은 키를 입력한 후 딜레이 없이 다시 소리가 나도록 설정한 것.
 - HTML/CSS
   - 결과물 : [folio](https://jjh106.github.io/saturdayJS/day-1/folio/index.html)
