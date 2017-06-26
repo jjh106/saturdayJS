@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="34px" viewBox="0 0 24 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-68.000000, -36.000000)" fill="#FFFFFF">
+            <g id="Header">
+                <g id="Menu" transform="translate(68.000000, 36.000000)">
+                    <g id="Logo">
+                        <path d="M12,24 C5.383,24 0,18.696 0,12 C0,5.305 5.383,0 12,0 L12,5 C8.03,5 5,7.983 5,12 C5,16.017 8.03,19 12,19 L12,24 L12,24 Z M12,15 C15.97,15 19,17.983 19,22 C19,26.017 15.97,29 12,29 L12,34 C18.617,34 24,28.696 24,22 C24,15.305 18.617,10 12,10 L12,15 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
