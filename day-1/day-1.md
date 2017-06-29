@@ -1,10 +1,60 @@
 ### day-1
 
 - JavaScript30
-  - 결과물 : [01.Drum Kit](https://jjh106.github.io/saturdayJS/day-1/01-JavaScriptDrumKit/index.html)
-    - kbd요소 : 유저의 키보드 입력을 지정하는 태그.
-    - data-key는 키코드에 해당하는 키를 눌러 실행 시키는지 설정하는 것으로 div요소와 aduio요소를 연결해준다.
-    - audio.currentTime = 0으로 설정한 것은 키를 입력한 후 딜레이 없이 다시 소리가 나도록 설정한 것.
+
+  결과물 : [01.Drum Kit](https://jjh106.github.io/saturdayJS/day-1/01-JavaScriptDrumKit/index.html)
+
+  #### 1. 키 입력 시 소리와 액션 추가하는 함수 생성
+
+  ```javascript
+  var playSound = function(e) {
+      var audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+      var key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+      if( !audio ) {
+        return;
+      }
+      audio.currentTime = 0;
+      audio.play();
+      key.classList.add('playing');
+    }
+  ```
+
+  > 1. audio와 key에 ES6 템플릿문자열을 사용해 입력한 키와 일치하는 data-key 속성의 키코드를 담아주고 일치하는 audio가 없다면 그냥 리턴을 한다. 
+  > 2. 키 입력 후 다시 입력할 때까지 딜레이가 생기지 않도록 즉, 현재 위치를 0초로 설정해 소리가 끝나기 전에 연속으로 입력 가능하도록 설정함.
+  > 3. 일치한다면 key에 playing 클래스를 추가한다.
+
+  #### 2. 입력 해제 시 효과 종료하는 함수 생성
+
+  ```javascript
+  var removeTransition = function(e) {
+      if( e.propertyName !== 'transform' ) {
+        return;
+      }
+      this.classList.remove('playing');
+    }
+  ```
+
+  > 1. 입력한 키의 속성 중 transform이 없으면 그냥 리턴한다.
+  > 2. 있다면 추가했던 playing 클래스를 제거하여 효과를 해제한다.
+
+  #### 3. removeTransition 함수 적용
+
+  ```javascript
+  const keys = Array.from(document.querySelectorAll('.key'));
+  keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+  ```
+
+  > 1. key 클래스를 가진 요소들을 keys에 배열로 담는다.
+  > 2. forEach를 사용해 각각의 key에 변화가 끝나면(transitionend) removeTransition 함수를 실행한다.
+
+  #### 4. 추가 내용
+
+  **kbd요소** : 유저의 키보드 입력을 지정하는 태그.
+
+  **data-key** : 사용자 정의 속성으로서, 키코드에 해당하는 키(class="key")와 audio 요소를 연결해 준다.
+
+  ---
+
 - HTML/CSS
   - 결과물 : [folio](https://jjh106.github.io/MiniProject/folio/index.html)
     - ~~반응형으로 만들기 전 데스크탑 버전만 우선 만들어 보았다.~~ (해결)
