@@ -26,4 +26,6 @@
 
 * ### [day-3](day-3/day-3.md)
 
+* ### [day-4](day-4/day-4.md)
+
 
