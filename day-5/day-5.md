@@ -1,7 +1,7 @@
 ### day-5
 
 * JavaScript30
-  * 결과물 : [05.Flex Panel Gallery](https://jjh106.github.io/saturdayJS/day-5/05.FlexPanelGallery/index.html)
+  * 결과물 : [05.Flex Panel Gallery](https://jjh106.github.io/saturdayJS/day-5/05-FlexPanelGallery/index.html)
 
 
 #### 1. panels에 display: flex 적용 
