@@ -1,7 +1,7 @@
 ### day-5
 
 * JavaScript30
-  * 결과물 : [05.Flex Panel Gallery]((https://jjh106.github.io/saturdayJS/day-5/05.FlexPanelGallery/index.html))
+  * 결과물 : [05.Flex Panel Gallery](https://jjh106.github.io/saturdayJS/day-5/05.FlexPanelGallery/index.html)
 
 
 #### 1. panels에 display: flex 적용 
@@ -28,7 +28,7 @@
 
 > 1. display를 felx로 설정한다.
 > 2. flex를 1로 설정하여 브라우저 크기에 맞춰 모든 패널의 크기가 동일하게 설정된다.
-> 3.  justify-content: center : 수평정렬
+> 3. justify-content: center : 수평정렬
 > 4. align-items: center : 수직정렬
 > 5. flex-direction: column : 축을 세로로 변경
 
