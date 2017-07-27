@@ -1,7 +1,7 @@
 ### day-6
 
 * JavaScript30
-  * 결과물: [06.Type Ahead](https://jjh106.github.io/saturdayJS/day-5/06-TypeAhead/index.html)
+  * 결과물: [06.Type Ahead](https://jjh106.github.io/saturdayJS/day-6/06-TypeAhead/index.html)
 
 #### 1. json 데이터 받아오기
 
@@ -55,7 +55,7 @@ function displayMatches() {
 
 > 1. matchArray에 검색 값을 담는다.
 > 2. 검색한 도시나 주에 하이라이트 스타일을 주기 위해 replace를 사용해 새로운 html로 대체 시킨다.
-> 3.  view에 보여질 리스트를 return한 후 공백으로 연결.
+> 3. view에 보여질 리스트를 return한 후 공백으로 연결.
 > 4. html에 담는다.
 > 5. suggestions에 innerHTML로 삽입.
 
