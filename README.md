@@ -30,4 +30,6 @@
 
 * ### [day-5](day-5/day-5.md)
 
+* ### [day-6](day-6/day-6.md)
+
 
