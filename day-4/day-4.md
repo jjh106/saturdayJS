@@ -1,7 +1,6 @@
 ### day-4
 
 * JavaScript30
-  * 결과물 : 04. Array Cardio-1
 
 #### 1. filter 
 
