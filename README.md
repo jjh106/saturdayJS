@@ -36,4 +36,6 @@
 
 * ### [day-8](day-8/day-8.md)
 
+* ### [day-9](day-9/day-9.md)
+
 
